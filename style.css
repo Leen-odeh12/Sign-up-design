@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    width:100%;
+    height:800px;
+    background-color: rgb(220, 239, 255);
+}
+.sec{
+    position: absolute;
+    width:1000px;
+    height: 700px;
+  top:75px; right: 10%;
+    padding-top: 300px;
+    background-color: white;
+height: 650px;
+}
+div.div-one{
+width:500px;
+height: 650px;
+position: absolute;
+top:0px;
+right: 0px;
+background-color: white;
+}
+.img{
+    position: absolute;
+    top:0px;
+    left: 0%;
+}
+
+h1,p,form{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+h1{
+    padding-top: 40px;
+}
+p{
+   color:#b3bbc0 ;
+    font-weight: 100px;
+}
+label{
+    color: #b3bbc0;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 10px;
+  
+ 
+}
+input{
+    width:120px;
+    border-color:#d7d7d7 ;
+    padding: 10px;
+    display:block;
+    outline: none;
+   border-width: 1px;
+}
+.one,.sub-div{
+    display: flex;
+    justify-content: space-between;
+}
+input#l-name,input#f-name , input#email ,input#phone ,input#pass ,input#con-pass{
+    width:200px;
+    border-radius: 7px;
+    border-color: rgb(210, 210, 210);
+    outline: none;
+    margin-bottom: 38px;
+    height: 45px;
+}
+.sub-div,.sub-div2{
+    display: block;
+}
+.sub-div2{
+    padding-right: 20px;
+}
+.btn{
+    background-color:#1b74e4;
+    color:white;
+    width:200px;
+    height: 50px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    margin-bottom: 18px;
+}
+
+span{
+    font-weight: bold;
+}
+.btn:hover{
+    opacity: 90%;
+    cursor: pointer;
+}
+.end{
+    display: flex;
+    position: relative;
+}
+a{
+    opacity:70%;
+    font-weight: bold;
+    text-decoration: none;
+ position: absolute;  
+    top:20px;
+    right:210px;
+color:#116ee0;
+    
+}
+::-webkit-input-placeholder {
+    opacity: 70%;
+}
